@@ -1,0 +1,38 @@
+body{
+	 background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('r.jpg');
+background-size: cover;
+font-family: Arial;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+	display: flex;
+	align-items: center;
+
+	justify-content: center;
+	height: 100vh;
+}
+form{
+	margin-top: 40px;
+text-align: center;
+}
+input{
+	display: block;
+	width: 280px;
+	height: 30px;
+	margin: 10px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	border-bottom: 1px solid black;
+}
+button{
+	width: 350px;
+	height: 40px;
+	font-size: 20px;
+	border-right: none;
+	background-color: blue;
+	border: none;
+	color: white;
+}
